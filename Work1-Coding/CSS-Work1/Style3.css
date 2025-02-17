@@ -62,6 +62,10 @@ ul li:hover ul.dropdown{
     background-color: #97c596;
 
 }
+.dropdown{
+    padding-left: 0%;
+    text-align: center;
+}
 .droplist .personal{
     text-decoration: none;
     list-style: none;
