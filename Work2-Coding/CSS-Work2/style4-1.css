@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Grechen+Fuemen&family=Kalam:wght@300;400;700&family=Kumar+One&family=Monomakh&family=Rowdies:wght@300;400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../Asset/ダウンロード.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width:430px){
+    .container {
+        width: 100%;
+        max-width: 425px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .navbar{
+        position: fixed;
+        z-index: 99;
+        top: 0;
+        display: flex;
+        background-color: #013000;
+        max-width: 425px;
+        width: 100%;
+        
+        align-items: center;
+        
+    }
+    .navbranding {
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .nav-menu .nav-item {
+        display: inline-block;
+        position: relative;
+        
+    }
+    .nav-menu .nav-item .nav-link{
+        display: block;
+        
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        font-size: 16px;
+    }
+    .nav-menu .nav-item .nav-link:hover{
+        color: #013000;
+    }
+    ul li ul.dropdown{
+        width: 100%;
+        position: absolute;
+        z-index: 999;
+        display: none;
+    }
+    .nav-item{
+        margin-top: 0;
+        padding-top: 0;
+        width: 20%;
+    }
+    .nav-item:hover{
+        background-color: #97c596;
+    }
+    
+    
+    ul li:hover ul.dropdown{
+        display: block;
+        background-color: #97c596;
+    
+    }
+    .dropdown{
+        padding-left: 0%;
+        text-align: center;
+    }
+    .droplist .personal{
+        text-decoration: none;
+        list-style: none;
+        font-size: 14px;
+        text-align: center;
+        padding-left: 0;
+    }
+    .droplist .intern{
+        text-decoration: none;
+        list-style: none;
+        font-size: 14px;
+        text-align: center;
+        padding-left: 0;
+    }
+    .droplist a:hover{
+        color: #013000;
+    }
+    .nav-menu .nav-item {
+        list-style: none;
+    }
+    .nav-menu{
+        width: 100%;
+        max-width: 800px;
+        padding: 0;
+    }
+    ul li {
+        list-style: none;
+    }
+    .nav-item a {
+        color: white;
+        text-decoration: none;
+        
+    }
+    .nav-link {
+        transition: 0.7s ease;
+        list-style: none;
+    }
+
+    .nav-link:hover {
+        color: black;
+    }
+    
+    .tophome img{
+        width: 100%;
+        max-width: 425px;
+        position: relative;
+        margin-top: 2%;
+    }
+    .bagian1{
+        margin-bottom: 5%;
+    }
+    .header1 img{
+        width: 100%;
+        max-width: 425px;
+        margin-top: 6%;
+    }
+    .kotak_slider{
+        margin-top: 4%;
+        margin-bottom: 7%;
+        background-color: #8ab28a;
+        width: 100%;
+        max-width: 425px;
+        padding-top: 4%;
+        padding-bottom: 3%;
+    }
+    .slideshow-container1{
+        max-width: 425px;
+        height: 100px;
+        width: 100%;
+        position: relative;
+        padding-left: 10%;
+
+    }
+    .slideshow-container1 img{
+        vertical-align: middle;
+        width: 100%;
+        max-width: 330px;
+        margin-left: auto;
+        margin-bottom: auto;
+    }
+    .prev1, .next1{
+        cursor: pointer;
+        position: absolute;
+        top: 55%;
+        width: auto;
+        padding: 6px;
+        margin-top: -22px;
+        color: #acffcf;
+        background-color: #00611a;
+        font-weight: bold;
+        font-size: 15px;
+        transition: 0.6 ease;
+        border-radius: 3px;
+        user-select: none;
+    }
+    .prev1{
+        left: 3.5%;
+    }
+    .next1{
+        border-radius: 3px;
+        right: 3%;
+    }
+    .prev1:hover, .next1:hover{
+        background-color: #acffcf;
+        color: #004c14;
+    }
+    .dot1{
+        cursor: pointer;
+        height: 8px;
+        width: 8px;
+        margin: 0 5px;
+        background-color: #ffff;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    .active1, .dot1:hover{
+        background-color: #003b17;
+    }
+    .bagian2{
+        margin-bottom: 5%;
+    }
+    .header2 img{
+        width: 100%;
+        max-width: 425px;
+        margin-top: 3%;
+    }
+    .kotak_slider2{
+        margin-top: 4%;
+        margin-bottom: 7%;
+        background-color: #8ab28a;
+        width: 100%;
+        max-width: 990px;
+        padding-top: 4%;
+        padding-bottom: 3%;
+    }
+    .slideshow-container2{
+        max-width: 425px;
+        height: 80px;
+        width: 100%;
+        position: relative;
+        padding-left: 10%;
+    }
+    .slideshow-container2 img{
+        vertical-align: middle;
+        width: 100%;
+        max-width: 330px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .prev2, .next2{
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 6px;
+        margin-top: -22px;
+        color: #acffcf;
+        background-color: #00611a;
+        font-weight: bold;
+        font-size: 15px;
+        transition: 0.6 ease;
+        border-radius: 3px;
+        user-select: none;
+    }
+    .prev2{
+        left: 3.5%;
+    }
+    .next2{
+        
+        border-radius: 3px;
+        right: 3%;
+    }
+    .prev2:hover, .next2:hover{
+        background-color: #acffcf;
+        color: #004c14;
+    }
+    .dot2{
+        cursor: pointer;
+        height: 8px;
+        width: 8px;
+        margin: 0 5px;
+        background-color: #ffff;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    .active1, .dot2:hover{
+        background-color: #003b17;
+    }
+    .fade{
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    @-webkit-keyframes fade{
+        from {opacity: .4;}
+        to {opacity: 1;}
+    }
+    @keyframes fade{
+        from {opacity: .4;}
+        to {opacity: 1;}
+    }
+    .bagian3{
+        margin-bottom: 5%;
+    }
+    .bagian4{
+        margin-bottom: 5%;
+    }
+    .header3 img{
+        width: 100%;
+        max-width: 425px;
+        margin-top: 3%;
+        margin-bottom: 2%;
+    }
+    .header4 img{
+        width: 100%;
+        max-width: 425px;
+        margin-top: 4%;
+        margin-bottom: 2%;
+    }
+    .deco3-1{
+        width: 100%;
+        max-width: 425px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .deco3-1 img{
+        width: 100%;
+        max-width: 425px;
+    }
+    .basicbtn{
+        margin-top: 5%;
+    }
+    .basicbtn img{
+        width: 100%;
+        max-width: 400px;
+    }
+    .basicbtn a img{
+        padding-left: 11%;
+        padding-right: 8%;
+        transition: 0.8s;
+    }
+    .basicbtn a img:hover{
+        transform: scale(0.9);
+    }
+    
+    .basic_text h2{
+        text-align: center;
+        font-size: 18px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-family: "Rowdies", serif;
+        font-weight: 400;
+        color: #fff;
+    }
+    .deco3-2{
+        width: 100%;
+        max-width: 425px;
+        margin-top: 6%;
+        margin-bottom: 2%;
+    }
+    .deco3-2 img{
+        width: 100%;
+        max-width: 425px;
+    }
+    .restobtn{
+        margin-top: 5%;
+    }
+    .restobtn a img{
+        padding-left: 11%;
+        padding-right: 8%;
+        transition: 0.8s;
+    }
+    .restobtn img {
+        width: 100%;
+        max-width: 400px;
+    }
+    .restobtn a img:hover{
+        transform: scale(0.9);
+    }
+    .resto_text h2{
+        text-align: center;
+        font-size: 18px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-family: "Rowdies", serif;
+        font-weight: 400;
+        color: #fff;
+    }
+    .deco3-3{
+        width: 100%;
+        max-width: 425px;
+        margin-top: 6%;
+        margin-bottom: 2%;
+    }
+    .deco3-3 img{
+        width: 100%;
+        max-width: 425px;
+    }
+    .hotelbtn{
+        margin-top: 5%;
+    }
+    .hotelbtn img{
+        width: 100%;
+        max-width: 425px;
+    }
+    .hotelbtn a img{
+        padding-left: 11%;
+        padding-right: 8%;
+        transition: 0.8s;
+    }
+    .hotelbtn a img:hover{
+        transform: scale(0.9);
+    }
+    .hotel_text h2{
+        text-align: center;
+        font-size: 16px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        font-family: "Rowdies", serif;
+        font-weight: 400;
+        color: #fff;
+    }
+    .atas {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 425px;
+        margin-bottom: 3%;
+        margin-top: 4%;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 4%;
+        padding-bottom: 2%;
+        background-color: #b3e4b1;
+    }
+    .label_kiri1 img {
+        padding-left: 3%;
+        margin-top: 3%;
+        width: 100%;
+        max-width: 120px;
+        
+    }
+    .label_tengah1 img {
+        padding-left: 3%;
+        margin-top: 3%;
+        width: 100%;
+        max-width: 120px;
+    }
+    .label_kanan1 img {
+        padding-left: 3%;
+        margin-top: 3%;
+        width: 100%;
+        max-width: 120px;
+    }
+    .kiri1btn a img{
+        transition: 0.8s;
+        width: 100%;
+        max-width: 120px;
+    }
+    .kiri1btn a img:hover{
+        transform: scale(0.9);
+    }
+    .tengah1btn a img{
+        transition: 0.8s;
+        width: 100%;
+        max-width: 120px;
+    }
+    .tengah1btn a img:hover{
+        transform: scale(0.9);
+    }
+    .kanan1btn a img{
+        transition: 0.8s;
+        width: 100%;
+        max-width: 120px;
+    }
+    .kanan1btn a img:hover{
+        transform: scale(0.9);
+    }
+    .bawah {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 425px;
+        margin-bottom: 3%;
+        margin-top: 4%;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 4%;
+        padding-bottom: 2%;
+        background-color: #b3e4b1;
+    }
+    .label_kiri2 img {
+        padding-left: 3%;
+        margin-top: 3%;
+        width: 100%;
+        max-width: 120px;
+    }
+    .label_tengah2 img {
+        padding-left: 3%;
+        margin-top: 3%;
+        width: 100%;
+        max-width: 120px;
+    }
+    .label_kanan2 img {
+        padding-left: 3%;
+        margin-top: 3%;
+        width: 100%;
+        max-width: 120px;
+    }
+    .kiri2btn a img{
+        transition: 0.8s;
+        width: 100%;
+        max-width: 120px;
+    }
+    .kiri2btn a img:hover{
+        transform: scale(0.9);
+    }
+    .tengah2btn a img{
+        transition: 0.8s;
+        width: 100%;
+        max-width: 120px;
+    }
+    .tengah2btn a img:hover{
+        transform: scale(0.9);
+    }
+    .kanan2btn a img{
+        transition: 0.8s;
+        width: 100%;
+        max-width: 120px;
+    }
+    .kanan2btn a img:hover{
+        transform: scale(0.9);
+    }
+    .ozora_text h2{
+        text-align: center;
+        font-size: 20px;
+        max-width: 990px;
+        width: 100%;
+        color: #ffff;
+        font-family: "Rowdies", serif;
+        font-weight: 400;
+    }
+}

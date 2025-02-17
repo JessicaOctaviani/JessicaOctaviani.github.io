@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../Asset/ダウンロード.gif);
+    background-size: cover;
+    background-position: center;
+    
+}
+.navbar{
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    display: flex;
+    background-color: #013000;
+    max-width: 990px;
+    width: 100%;
+    
+    align-items: center;
+    
+}
+.navbranding {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.nav-menu .nav-item {
+    display: inline-block;
+    position: relative;
+    
+}
+.nav-menu .nav-item .nav-link{
+    display: block;
+    
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+}
+.nav-menu .nav-item .nav-link:hover{
+    color: #013000;
+}
+ul li ul.dropdown{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+.nav-item{
+    margin-top: 0;
+    padding-top: 0;
+    width: 20%;
+}
+.nav-item:hover{
+    background-color: #97c596;
+}
+
+
+ul li:hover ul.dropdown{
+    display: block;
+    background-color: #97c596;
+
+}
+.droplist .personal{
+    text-decoration: none;
+    list-style: none;
+    font-size: 25px;
+    text-align: center;
+    padding-left: 0;
+}
+.droplist .intern{
+    text-decoration: none;
+    list-style: none;
+    font-size: 25px;
+    text-align: center;
+    padding-left: 0;
+}
+.droplist a:hover{
+    color: #013000;
+}
+.nav-menu .nav-item {
+    list-style: none;
+}
+.nav-menu{
+    width: 100%;
+    max-width: 800px;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.nav-link {
+    transition: 0.7s ease;
+    list-style: none;
+}
+
+.nav-link:hover {
+    color: black;
+}
+.container {
+    width: 100%;
+    max-width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../Asset/Background.png);
+}
+.paper img{
+    width: 100%;
+    max-width: 880px;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+.paper{
+    margin-left: 6%;
+    position: relative;
+}
+.judul{
+    position: absolute;
+    top: 260px;
+    left: 390px;
+}
+.profile1 {
+    position: absolute;
+    top: 450px;
+    left: 545px;
+}
+.profile2 {
+    position: absolute;
+    top: 650px;
+    left: 400px;
+}
+.stamp{
+    position: absolute;
+    top: 650px;
+    right: 380px;
+}
+.jam {
+    position: absolute;
+    top: 984px ;
+    right: 262px;
+}

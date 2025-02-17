@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../Asset/ダウンロード.gif);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+@media screen and (max-width:430px) {
+    .container {
+        width: 100%;
+        max-width: 425px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url(../Asset/Background.png);
+        background-size: cover;
+    }
+    .navbar{
+        position: fixed;
+        z-index: 99;
+        top: 0;
+        display: flex;
+        background-color: #013000;
+        max-width: 425px;
+        width: 100%;
+        
+        align-items: center;
+        
+    }
+    .navbranding {
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .nav-menu .nav-item {
+        display: inline-block;
+        position: relative;
+        
+    }
+    .nav-menu .nav-item .nav-link{
+        display: block;
+        
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        font-size: 16px;
+    }
+    .nav-menu .nav-item .nav-link:hover{
+        color: #013000;
+    }
+    ul li ul.dropdown{
+        width: 100%;
+        position: absolute;
+        z-index: 999;
+        display: none;
+    }
+    .nav-item{
+        margin-top: 0;
+        padding-top: 0;
+        width: 20%;
+    }
+    .nav-item:hover{
+        background-color: #97c596;
+    }
+    
+    
+    ul li:hover ul.dropdown{
+        display: block;
+        background-color: #97c596;
+    
+    }
+    .dropdown{
+        padding-left: 0%;
+        text-align: center;
+    }
+    .droplist .personal{
+        text-decoration: none;
+        list-style: none;
+        font-size: 14px;
+        text-align: center;
+        padding-left: 0;
+    }
+    .droplist .intern{
+        text-decoration: none;
+        list-style: none;
+        font-size: 14px;
+        text-align: center;
+        padding-left: 0;
+    }
+    .droplist a:hover{
+        color: #013000;
+    }
+    .nav-menu .nav-item {
+        list-style: none;
+    }
+    .nav-menu{
+        width: 100%;
+        max-width: 800px;
+        padding: 0;
+    }
+    ul li {
+        list-style: none;
+    }
+    .nav-item a {
+        color: white;
+        text-decoration: none;
+        
+    }
+    
+    .nav-link {
+        transition: 0.7s ease;
+        list-style: none;
+    }
+    
+    .nav-link:hover {
+        color: black;
+    }
+    .paper img{
+        width: 100%;
+        max-width: 400px;
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+    .paper{
+        margin-left: 2%;
+        position: relative;
+    }
+    .judul{
+        position: absolute;
+        top: 115px;
+        left: 55px;
+    }
+    .judul img{
+        width: 100%;
+        max-width: 300px;
+    }
+    .profile1 {
+        position: absolute;
+        top: 200px;
+        left: 130px
+    }
+    .profile1 img {
+        width: 100%;
+        max-width: 180px;
+    }
+    .profile2 {
+        position: absolute;
+        top: 290px;
+        left: 60px
+    }
+    .profile2 img{
+        width: 100%;
+        max-width: 290px;
+    }
+    .stamp{
+        position: absolute;
+        top: 280px;
+        right: 20px;
+    }
+    .stamp img{
+        width: 100%;
+        max-width: 180px;
+    }
+    .jam {
+        position: absolute;
+        top: 470px ;
+        right: 7px;
+    }
+    .jam img{
+        width: 100%;
+        max-width: 150px;
+    }
+}

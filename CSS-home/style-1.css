@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Grechen+Fuemen&family=Kalam:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../Asset-Home/ダウンロード.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+@media screen and (max-width:430px) {
+    .container {
+        width: 100%;
+        max-width: 425px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: linear-gradient(to bottom, #0d6f0b, #48b446);
+    }
+    
+    .navbar{
+        position: fixed;
+        z-index: 99;
+        top: 0;
+        display: flex;
+        background-color: #013000;
+        max-width: 425px;
+        width: 100%;
+        
+        align-items: center;
+        
+    }
+    .navbranding {
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .nav-menu .nav-item {
+        display: inline-block;
+        position: relative;
+        
+    }
+    .nav-menu .nav-item .nav-link{
+        display: block;
+        
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        font-size: 16px;
+    }
+    .nav-menu .nav-item .nav-link:hover{
+        color: #013000;
+    }
+    ul li ul.dropdown{
+        width: 100%;
+        position: absolute;
+        z-index: 999;
+        display: none;
+    }
+    .nav-item{
+        margin-top: 0;
+        padding-top: 0;
+        width: 20%;
+    }
+    .nav-item:hover{
+        background-color: #97c596;
+    }
+    
+    
+    ul li:hover ul.dropdown{
+        display: block;
+        background-color: #97c596;
+    
+    }
+    .dropdown{
+        padding-left: 0%;
+        text-align: center;
+    }
+    .droplist .personal{
+        text-decoration: none;
+        list-style: none;
+        font-size: 14px;
+        text-align: center;
+        padding-left: 0;
+    }
+    .droplist .intern{
+        text-decoration: none;
+        list-style: none;
+        font-size: 14px;
+        text-align: center;
+        padding-left: 0;
+    }
+    .droplist a:hover{
+        color: #013000;
+    }
+    .nav-menu .nav-item {
+        list-style: none;
+    }
+    .nav-menu{
+        width: 100%;
+        max-width: 800px;
+        padding: 0;
+    }
+    ul li {
+        list-style: none;
+    }
+    .nav-item a {
+        color: white;
+        text-decoration: none;
+        
+    }
+    
+    .nav-link {
+        transition: 0.7s ease;
+        list-style: none;
+    }
+    
+    .nav-link:hover {
+        color: black;
+    }
+    
+    
+    
+    .tophome img{
+        width: 100%;
+        max-width: 425px;
+        padding-top: 3%;
+        position: relative;
+    }
+    .bagianprofile{
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+        height: 475px;
+    }
+    .papan img{
+        width: 100%;
+        max-width: 425px;
+        position: relative;
+    }
+    .profilebutton{
+        display: block;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+        width: 100%;
+        max-width: 100px;
+        background-color: #9a978f;
+        position: absolute;
+        bottom: 2%;
+        right: 16%;
+        
+    }
+    .profilebutton h2{
+        font-size: 10px;
+        text-align: center;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .profilebutton:hover{
+        background-color: #4e4a41;
+        
+    }
+    .profilebutton a{
+        text-decoration: none;
+        color: black;
+    }
+    .profilebutton a:hover{
+        color: aliceblue;
+    }
+    .workheader img{
+        width: 100%;
+        max-width: 425px;
+        margin-top: 0%;
+        padding-top: 0%;
+    }
+    .work1{
+        width: 100%;
+        max-width: 425px;
+        display: flex;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    .scroll1{
+        width: 100%;
+        max-width: 275px
+    }
+    .scroll1 img{
+        width: 100%;
+        max-width: 275px
+    }
+    .scroll1kanan{
+        width: 100%;
+        max-width: 150px;
+    }
+    
+    .scroll1kanan h2{
+        font-size: 18px;
+        text-align: center;
+        color: aliceblue;
+        font-family: "Grechen Fuemen", serif;
+        font-weight: 600;
+    }
+    .scroll1kanan h3{
+        font-size: 16px;
+        background-color: #d0beb0;
+        padding-left: 10%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-family: "Grechen Fuemen", serif;
+        font-weight: 600;
+    }
+    .scroll1button a img{
+        padding-left: 10%;
+        transition: 0.6s;
+        max-width: 100px;
+    }
+    .scroll1button a img:hover{
+        transform: scale(0.9);
+    }
+    .work2{
+        width: 100%;
+        max-width: 425px;
+        display: flex;
+        margin-bottom: 5%;
+    }
+    .scroll2 img{
+        width: 100%;
+        max-width: 275px
+    }
+    .scroll2{
+        width: 100%;
+        max-width: 275px
+    }
+    .scroll2kiri{
+        width: 100%;
+        max-width: 150px;
+        padding-top: 2%;
+    }
+    .scroll2kiri h2{
+        font-size: 18px;
+        text-align: center;
+        color: aliceblue;
+        font-family: "Grechen Fuemen", serif;
+        font-weight: 600;
+    }
+    .scroll2kiri h3{
+        font-size: 16px;
+        background-color: #d0beb0;
+        padding-left: 10%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-family: "Grechen Fuemen", serif;
+        font-weight: 600;
+    }
+    .scroll2button a img{
+        padding-left: 10%;
+        transition: 0.6s;
+        max-width: 100px;
+    }
+    .scroll2button a img:hover{
+        transform: scale(0.9);
+    }
+    #footer{
+        margin-top: 13%;
+        padding-bottom: 10%;
+        background-image: url(../Asset-Home/footerbackground.png);
+        width: 100%;
+        max-width: 425px;
+        background-size: cover;
+    }
+    .contact-card img{
+        margin-left: 0%;
+        padding-top: 18%;
+        position: relative;
+        width: 100%;
+        max-width: 425px;
+    }
+    .contact-text img{
+        position: absolute;
+        bottom: -164%;
+        right: 13%;
+        width: 100%;
+        max-width: 300px;
+
+    }
+    .contact-button a{
+        
+        color: white;
+        font-size: 20px;
+        background-color: #b88d6c;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 3%;
+        padding-right: 3%;
+        position: absolute;
+        bottom: -172%;
+        right: 22%;
+        font-family: "Acme", serif;
+        font-weight: 400;
+    }
+    .contact-button a:hover{
+        color: rgb(106, 200, 138);
+        background-color: #ffe3ce;
+    }
+}
