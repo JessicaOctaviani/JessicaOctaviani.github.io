@@ -125,7 +125,7 @@ body {
     }
     
     
-    
+   
     .tophome img{
         width: 100%;
         max-width: 425px;
@@ -135,12 +135,13 @@ body {
     .bagianprofile{
         margin-bottom: 0%;
         padding-bottom: 0%;
+        position: relative;
         
     }
     .papan img{
         width: 100%;
         max-width: 425px;
-        position: relative;
+        display: block;
     }
     .profilebutton{
         display: block;
@@ -152,8 +153,8 @@ body {
         max-width: 100px;
         background-color: #9a978f;
         position: absolute;
-        bottom: 2%;
-        right: 16%;
+        bottom: 31%;
+        right: 15%;
         
     }
     .profilebutton h2{
@@ -277,30 +278,36 @@ body {
     .contact-card img{
         margin-left: 0%;
         padding-top: 18%;
-        position: relative;
+        
         width: 100%;
         max-width: 425px;
     }
-    .contact-text img{
+    .contact-card{
+        position: relative;
+    }
+    
+    .contact-text {
         position: absolute;
-        bottom: -164%;
-        right: 13%;
+        bottom: 37%;
+        left: 34%;
         width: 100%;
         max-width: 300px;
-
+    }
+    .contact-button{
+        
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 3%;
+        padding-right: 3%;
+        position: absolute;
+        bottom: 35%;
+        right: 22%;
     }
     .contact-button a{
         
         color: white;
         font-size: 20px;
         background-color: #b88d6c;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        padding-left: 3%;
-        padding-right: 3%;
-        position: absolute;
-        bottom: -172%;
-        right: 22%;
         font-family: "Acme", serif;
         font-weight: 400;
     }

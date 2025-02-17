@@ -125,13 +125,14 @@ ul li {
 .bagianprofile{
     margin-bottom: 0%;
     padding-bottom: 0%;
-    height: 1154px;
+    display: block;
+    position: relative;
 }
 .papan img{
     width: 100%;
     max-width: 990px;
     position: relative;
-    
+    display: block;
 }
 .profilebutton{
     display: block;
@@ -143,8 +144,8 @@ ul li {
     max-width: 200px;
     background-color: #9a978f;
     position: absolute;
-    bottom: -100%;
-    right: 29.4%;
+    bottom: 31%;
+    right: 19%;
     
 }
 .profilebutton:hover{
