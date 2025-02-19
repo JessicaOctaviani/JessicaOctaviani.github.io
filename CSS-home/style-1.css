@@ -24,7 +24,7 @@ body {
     
     .navbar{
         position: fixed;
-        z-index: 1000;
+        z-index: 99;
         top: 0;
         display: flex;
         background-color: #013000;
@@ -277,34 +277,32 @@ body {
     }
     .contact-card img{
         margin-left: 0%;
-        padding-top: 18%;
-        
         width: 100%;
         max-width: 425px;
+        
     }
     .contact-card{
         position: relative;
     }
     
     .contact-text {
-        position: absolute;
-        bottom: 37%;
-        left: 34%;
         width: 100%;
         max-width: 300px;
+        
+    }
+    .contact-text img{
+        position: static;
     }
     .contact-button{
-        
+        position: static;
         padding-top: 1%;
         padding-bottom: 1%;
         padding-left: 3%;
         padding-right: 3%;
-        position: absolute;
-        bottom: 35%;
-        right: 22%;
+        
     }
     .contact-button a{
-        
+        position: static;
         color: white;
         font-size: 20px;
         background-color: #b88d6c;
@@ -314,5 +312,16 @@ body {
     .contact-button a:hover{
         color: rgb(106, 200, 138);
         background-color: #ffe3ce;
+    }
+    .textbutton{
+        position: absolute;
+        z-index: 99;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }
